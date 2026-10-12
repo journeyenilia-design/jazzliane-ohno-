@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project J</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <main class="card">
+    <p class="tag">PROJECT J / 001</p>
+
+    <h1 id="heading">Jazz.</h1>
+
+    <p id="intro">
+      Can I tell you something?
+      Don't worry, it's not that deep.
+      Well… maybe a little.
+    </p>
+
+    <button id="openBtn">Okay, tell me? ↗</button>
+
+    <section id="letter" class="hidden">
+      <div class="divider"></div>
+
+      <p class="eyebrow">A LITTLE HONESTY</p>
+
+      <h2>Okay, real talk.</h2>
+
+      <p>
+        Medyo random 'to, pero gustong gusto ko na talagang sabihin sayo ito.
+      </p>
+
+      <p>
+        I think you're really interesting, and honestly,
+        <strong>I kinda like you.</strong>
+        Hindi ko naman gustong gawing big deal 'to
+        or make things awkward between us.
+        I just thought na instead of keeping it to myself,
+        why not be honest about it?
+      </p>
+
+      <p>
+        I'm not expecting you to feel the same way,
+        and I'm not trying to rush anything.
+        I just wanna get to know you better, talk to you
+        more, and see where things go naturally.
+      </p>
+
+      <p>
+        So yeah, that's pretty much it.
+        No dramatic confession, no pressure,
+        just me being real with you.
+      </p>
+
+      <p class="confession">
+        I like you, Jazzliane.
+        That's the surprise.
+      </p>
+
+      <p>
+        And if you happen to feel the same way,
+        well… I'd be happy to know. :)
+      </p>
+
+      <div class="divider"></div>
+
+      <h2>So, what do you think?</h2>
+
+      <p class="small">
+        No pressure. Just answer honestly.
+      </p>
+
+      <div class="buttons">
+        <button id="yesBtn">i love it :)</button>
+        <button id="thinkBtn" class="secondary">
+          Let me think
+        </button>
+      </div>
+
+      <p id="response" aria-live="polite"></p>
+    </section>
+
+    <footer>JUST KEEPING IT REAL.</footer>
+  </main>
+
+</body>
+</html>
