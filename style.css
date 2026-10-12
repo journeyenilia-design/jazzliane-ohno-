@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  background: #101010;
+  color: #f2f0ec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 620px;
+  padding: clamp(25px, 6vw, 52px);
+  background: #181818;
+  border: 1px solid #303030;
+  box-shadow: 0 25px 80px #00000040;
+  animation: fadeIn 0.7s ease;
+}
+
+.tag,
+.eyebrow {
+  color: #a8a39d;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.tag {
+  margin-bottom: 38px;
+}
+
+h1 {
+  font-size: clamp(38px, 8vw, 62px);
+  letter-spacing: -3px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 24px 0 16px;
+}
+
+p {
+  color: #d0ccc6;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+#intro {
+  color: #aaa6a0;
+}
+
+button {
+  padding: 13px 18px;
+  border: 1px solid #a64d5d;
+  background: #a64d5d;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #bd6070;
+  transform: translateY(-2px);
+}
+
+button:focus-visible {
+  outline: 2px solid #f0b5bd;
+  outline-offset: 4px;
+}
+
+.divider {
+  height: 1px;
+  background: #303030;
+  margin: 30px 0;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+}
+
+strong,
+.confession {
+  color: #f0b5bd;
+  font-weight: 700;
+}
+
+.confession {
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+#letter.show {
+  animation: fadeIn 0.7s ease;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.secondary {
+  background: transparent;
+  border-color: #505050;
+  color: #eee;
+}
+
+.secondary:hover {
+  background: #303030;
+}
+
+.small {
+  font-size: 13px;
+  color: #aaa6a0;
+}
+
+#response {
+  color: #f0b5bd;
+  margin-top: 20px;
+}
+
+footer {
+  border-top: 1px solid #303030;
+  margin-top: 38px;
+  padding-top: 18px;
+  color: #77736e;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
